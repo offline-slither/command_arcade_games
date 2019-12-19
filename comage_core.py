@@ -51,7 +51,7 @@ def Supply_cheese(cmap):
 	count = 0 
 	count2 = 0
 	for char in cmap:
-		if count2 >4:
+		if count2 >5:
 			break
 		if char == " ":
 			val = randint(1,99)
